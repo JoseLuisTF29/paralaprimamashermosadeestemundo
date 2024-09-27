@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fce4ec, #ffe0f1);
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://www.transparentpng.com/uploads/flower-background-5l8pVY.png'); /* Fondo de flores */
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    color: #e63946;
+}
+
+button {
+    background-color: #ff6f91; /* Rosa más intenso */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #d5006d; /* Color de hover */
+}
+
+.hidden {
+    display: none;
+}
+
+#secretMessage {
+    margin-top: 20px;
+    color: #2a9d8f;
+    font-weight: bold;
+}
